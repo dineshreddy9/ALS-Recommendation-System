@@ -1,6 +1,5 @@
 # ALS-Recommendation-System
-Use Collaborative fltering fnd the accuracy of ALS model accuracy. Use ratings.dat file. It contains
-User id :: movie id :: ratings :: timestamp.
-Your program should report the accuracy of the model.
+Using Collaborative fltering I had found the accuracy of ALS model by Using ratings.dat file which contains data of the format 
+User id :: movie id :: ratings :: timestamp. I had used 60% of the data for training and 40% for testing.
 For details follow the link: https://spark.apache.org/docs/latest/mllib-collaborativefltering.html
-Please use 60% of the data for training and 40% for testing and report the MSE of the model.
+
